@@ -1,4 +1,12 @@
 " ---------------------------------------------------------------------
+" Plugins "{{{
+" ---------------------------------------------------------------------
+call            plug#begin()
+    Plug            'catppuccin/nvim', { 'as': 'catppuccin' }
+    Plug            'neovim/nvim-lspconfig'
+call            plug#end()
+
+" ---------------------------------------------------------------------
 " Editor "{{{
 " ---------------------------------------------------------------------
 set 		    cursorline
@@ -10,6 +18,20 @@ set 		    modifiable
 set             tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set             clipboard+=unnamedplus
 set             mouse=a
+
+
+" ---------------------------------------------------------------------
+" LSP "{{{
+" ---------------------------------------------------------------------
+source          ~/.config/nvim/lspconfig.rc.vim
+set             completeopt=menuone,noinsert,noselect
+
+" ---------------------------------------------------------------------
+" Theme "{{{
+" ---------------------------------------------------------------------
+colorscheme     catppuccin-mocha
+set             termguicolors
+set             background=dark
 
 
 " ---------------------------------------------------------------------
