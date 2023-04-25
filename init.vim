@@ -3,6 +3,7 @@
 " ---------------------------------------------------------------------
 source          ~/.config/nvim/lua/plugins.lua
 
+
 " ---------------------------------------------------------------------
 " Editor "{{{
 " ---------------------------------------------------------------------
@@ -25,6 +26,7 @@ source          ~/.config/nvim/lua/lspsaga.rc.lua
 source          ~/.config/nvim/lua/lspkind.rc.lua
 source          ~/.config/nvim/lua/cmp.rc.lua
 set             omnifunc=syntaxcomplete#Complete
+
 
 " ---------------------------------------------------------------------
 " Theme "{{{
