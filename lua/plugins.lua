@@ -29,4 +29,5 @@ return require('packer').startup(function(use)
     use 'hrsh7th/nvim-cmp'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-lua/plenary.nvim'
+    use 'L3MON4D3/LuaSnip'
 end)
