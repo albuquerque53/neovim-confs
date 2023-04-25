@@ -1,4 +1,3 @@
-lua << EOF
 local nvim_lsp = require('lspconfig')
 
 nvim_lsp.intelephense.setup{
@@ -6,4 +5,3 @@ nvim_lsp.intelephense.setup{
   filetypes = { "php" },
   root_dir = nvim_lsp.util.root_pattern("composer.json", ".git"),
 }
-EOF

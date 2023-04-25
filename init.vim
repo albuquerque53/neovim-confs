@@ -20,7 +20,7 @@ set             mouse=a
 " ---------------------------------------------------------------------
 " LSP "{{{
 " ---------------------------------------------------------------------
-source          ~/.config/nvim/lspconfig.rc.vim
+source          ~/.config/nvim/lua/lspconfig.lua
 set             completeopt=menuone,noinsert,noselect
 
 
