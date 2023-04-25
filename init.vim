@@ -1,10 +1,7 @@
 " ---------------------------------------------------------------------
 " Plugins "{{{
 " ---------------------------------------------------------------------
-call            plug#begin()
-    Plug            'catppuccin/nvim', { 'as': 'catppuccin' }
-    Plug            'neovim/nvim-lspconfig'
-call            plug#end()
+source          ~/.config/nvim/lua/plugins.lua
 
 " ---------------------------------------------------------------------
 " Editor "{{{
@@ -26,11 +23,11 @@ set             mouse=a
 source          ~/.config/nvim/lspconfig.rc.vim
 set             completeopt=menuone,noinsert,noselect
 
+
 " ---------------------------------------------------------------------
 " Theme "{{{
 " ---------------------------------------------------------------------
 colorscheme     catppuccin-mocha
-set             termguicolors
 set             background=dark
 
 
