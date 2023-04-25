@@ -26,6 +26,7 @@ source          ~/.config/nvim/lua/lspsaga.rc.lua
 source          ~/.config/nvim/lua/lspkind.rc.lua
 source          ~/.config/nvim/lua/cmp.rc.lua
 source          ~/.config/nvim/lua/treesiter.rc.lua
+source          ~/.config/nvim/lua/autopairs.rc.lua
 set             omnifunc=syntaxcomplete#Complete
 
 
