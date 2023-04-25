@@ -31,6 +31,7 @@ set             omnifunc=syntaxcomplete#Complete
 " ---------------------------------------------------------------------
 " Theme "{{{
 " ---------------------------------------------------------------------
+source          ~/.config/nvim/lua/lualine.rc.lua
 colorscheme     catppuccin-mocha
 set             background=dark
 
