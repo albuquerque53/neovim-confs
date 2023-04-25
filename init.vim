@@ -39,3 +39,4 @@ nnoremap 	    <leader>fcs     :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap 	    <leader>fce     :edit ~/.config/nvim/init.vim<cr>
 nnoremap 	    <leader>fcl     :source ~/.config/nvim/init.vim<cr>
 nnoremap 	    <leader><space> :nohlsearch<cr>
+nnoremap 	    <leader>pi      :PackerInstall<cr>
