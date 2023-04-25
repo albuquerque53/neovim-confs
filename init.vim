@@ -21,6 +21,7 @@ set             mouse=a
 " LSP "{{{
 " ---------------------------------------------------------------------
 source          ~/.config/nvim/lua/lspconfig.rc.lua
+source          ~/.config/nvim/lua/lspsaga.rc.lua
 set             completeopt=menuone,noinsert,noselect
 
 
