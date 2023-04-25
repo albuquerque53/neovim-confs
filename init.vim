@@ -22,8 +22,10 @@ set             mouse=a
 " ---------------------------------------------------------------------
 source          ~/.config/nvim/lua/lspconfig.rc.lua
 source          ~/.config/nvim/lua/lspsaga.rc.lua
-set             completeopt=menuone,noinsert,noselect
-
+source          ~/.config/nvim/lua/lspkind.rc.lua
+source          ~/.config/nvim/lua/cmp.rc.lua
+set             completeopt=menu,menuone
+set             omnifunc=syntaxcomplete#Complete
 
 " ---------------------------------------------------------------------
 " Theme "{{{
