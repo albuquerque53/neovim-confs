@@ -16,6 +16,8 @@ set 		    modifiable
 set             tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set             clipboard+=unnamedplus
 set             mouse=a
+set             colorcolumn=120
+highlight       ColorColumn ctermbg=grey guibg=lightgrey
 source          ~/.config/nvim/lua/telescope.rc.lua
 source          ~/.config/nvim/lua/filebrowser.rc.lua
 source          ~/.config/nvim/lua/gitsigns.rc.lua
