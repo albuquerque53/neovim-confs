@@ -21,8 +21,6 @@ source          ~/.config/nvim/lua/filebrowser.rc.lua
 source          ~/.config/nvim/lua/gitsigns.rc.lua
 source          ~/.config/nvim/lua/git.rc.lua
 source          ~/.config/nvim/lua/bufferline.rc.lua
-source          ~/.config/nvim/lua/bufferline.rc.lua
-
 
 " ---------------------------------------------------------------------
 " LSP "{{{
