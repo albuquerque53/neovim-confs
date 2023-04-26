@@ -18,6 +18,7 @@ set             clipboard+=unnamedplus
 set             mouse=a
 source          ~/.config/nvim/lua/filebrowser.rc.lua
 source          ~/.config/nvim/lua/gitsigns.rc.lua
+source          ~/.config/nvim/lua/git.rc.lua
 
 
 " ---------------------------------------------------------------------

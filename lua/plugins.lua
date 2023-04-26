@@ -43,4 +43,7 @@ return require('packer').startup(function(use)
         requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
     }
     use 'lewis6991/gitsigns.nvim'
+    use {
+      'dinhhuy258/git.nvim'
+    }
 end)
