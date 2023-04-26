@@ -48,6 +48,7 @@ highlight       Normal ctermbg=NONE guibg=NONE
 " KeyBinds "{{{
 " ---------------------------------------------------------------------
 let 		    mapleader="\\"
+nnoremap 	    <leader>cl      :bd<cr>
 nnoremap 	    <leader>fcs     :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap 	    <leader>fce     :edit ~/.config/nvim/init.vim<cr>
 nnoremap 	    <leader>fcl     :source ~/.config/nvim/init.vim<cr>
