@@ -10,6 +10,7 @@ source          ~/.config/nvim/lua/plugins.lua
 set 		    cursorline
 set 		    hidden
 set 		    number
+set 		    autoindent
 set 		    relativenumber
 set 		    inccommand=split
 set 		    modifiable
