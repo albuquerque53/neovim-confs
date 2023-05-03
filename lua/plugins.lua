@@ -52,4 +52,8 @@ return require('packer').startup(function(use)
         requires = 'nvim-tree/nvim-web-devicons'
     }
     use 'ryanoasis/vim-devicons'
+    use { 'junegunn/fzf', run = './install --bin', }
+    use { 'ibhagwan/fzf-lua',
+      requires = { 'nvim-tree/nvim-web-devicons' }
+    }
 end)
