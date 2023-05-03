@@ -43,7 +43,8 @@ set             omnifunc=syntaxcomplete#Complete
 source          ~/.config/nvim/lua/lualine.rc.lua
 colorscheme     catppuccin-mocha
 set             background=dark
-highlight       Normal ctermbg=NONE guibg=NONE
+" highlight       Normal ctermbg=NONE guibg=NONE UNCOMMENT TO TRANSPARENT
+" BACKGROUND
 
 
 " ---------------------------------------------------------------------
