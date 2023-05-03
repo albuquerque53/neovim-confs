@@ -42,7 +42,7 @@ set             omnifunc=syntaxcomplete#Complete
 " Theme "{{{
 " ---------------------------------------------------------------------
 source          ~/.config/nvim/lua/lualine.rc.lua
-colorscheme     gruvbox
+colorscheme     melange
 set             background=dark
 " highlight       Normal ctermbg=NONE guibg=NONE UNCOMMENT TO TRANSPARENT
 " BACKGROUND

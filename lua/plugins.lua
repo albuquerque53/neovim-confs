@@ -3,7 +3,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'neovim/nvim-lspconfig'
-    use { "ellisonleao/gruvbox.nvim" }
+    use "savq/melange-nvim"
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function()
@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
             {"nvim-tree/nvim-web-devicons"},
         }
     })
+    use 'folke/lsp-colors.nvim'
     use 'onsails/lspkind.nvim'
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-nvim-lsp'
