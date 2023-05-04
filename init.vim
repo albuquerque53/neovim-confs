@@ -25,6 +25,7 @@ source          ~/.config/nvim/lua/gitsigns.rc.lua
 source          ~/.config/nvim/lua/git.rc.lua
 source          ~/.config/nvim/lua/bufferline.rc.lua
 source          ~/.config/nvim/lua/fzf.rc.lua
+source          ~/.config/nvim/lua/indentlines.rc.lua
 
 " ---------------------------------------------------------------------
 " LSP "{{{
