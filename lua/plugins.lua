@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig'
     use "savq/melange-nvim"
     use "lukas-reineke/indent-blankline.nvim"
+    use 'L3MON4D3/LuaSnip'
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function()
