@@ -1,7 +1,7 @@
 vim.cmd('filetype plugin indent on')
 
 -- Plugins
-require('plugins')
+require('lua.plugins')
 
 -- Editor
 vim.opt.cursorline = true
