@@ -18,8 +18,6 @@ vim.opt.expandtab = true
 vim.opt.smarttab = true
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.mouse = 'a'
-require('config.telescope')
-require('config.filebrowser')
 require('config.gitsigns')
 require('config.git')
 require('config.bufferline')
@@ -49,6 +47,3 @@ vim.api.nvim_set_keymap('n', '<leader>fce', ':edit ~/.config/nvim/init.lua<cr>',
 vim.api.nvim_set_keymap('n', '<leader>fcl', ':source ~/.config/nvim/init.lua<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader><space>', ':nohlsearch<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>pi', ':PackerInstall<cr>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<cr>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<leader>fb', ':Telescope buffers<cr>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<leader>fh', ':Telescope help_tags<cr>', { noremap = true })
