@@ -52,4 +52,5 @@ return require('packer').startup(function(use)
     use { 'ibhagwan/fzf-lua',
       requires = { 'nvim-tree/nvim-web-devicons' }
     }
+    use 'ggandor/lightspeed.nvim'
 end)
