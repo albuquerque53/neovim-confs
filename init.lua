@@ -29,7 +29,6 @@ require('config.lspconfig')
 require('config.lspsaga')
 require('config.lspkind')
 require('config.cmp')
-require('config.treesiter')
 require('config.autopairs')
 vim.opt.omnifunc = 'syntaxcomplete#Complete'
 
