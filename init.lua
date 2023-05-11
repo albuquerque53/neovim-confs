@@ -34,6 +34,7 @@ require('config.git')
 require('config.bufferline')
 require('config.fzf')
 require('config.indentlines')
+require('config.telescope_browser')
 
 -- LSP
 require('config.lspconfig')

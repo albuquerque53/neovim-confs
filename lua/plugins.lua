@@ -48,7 +48,11 @@ return require('packer').startup(function(use)
         tag = '*',
         requires = 'nvim-tree/nvim-web-devicons'
     }
-    
+    use {
+        "nvim-telescope/telescope-file-browser.nvim",
+        requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+    }
+
     -- git
     use 'lewis6991/gitsigns.nvim'
     use 'dinhhuy258/git.nvim'
