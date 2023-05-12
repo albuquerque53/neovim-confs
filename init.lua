@@ -53,6 +53,7 @@ vim.cmd('highlight Normal ctermbg=NONE guibg=NONE')
 -- Keymaps 
 vim.g.mapleader = '\\'
 vim.api.nvim_set_keymap('n', '<leader>cl', ':bd<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>ca', ':bufdo bd<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>fcs', ':vsplit ~/.config/nvim/init.lua<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>fce', ':edit ~/.config/nvim/init.lua<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>fpe', ':edit ~/.config/nvim/lua/plugins.lua<cr>', { noremap = true })
