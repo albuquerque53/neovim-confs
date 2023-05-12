@@ -40,6 +40,7 @@ require('config.telescope_browser')
 require('config.lspconfig')
 require('config.lspsaga')
 require('config.lspkind')
+require('config.treesiter')
 require('config.cmp')
 require('config.autopairs')
 vim.opt.omnifunc = 'syntaxcomplete#Complete'

@@ -18,6 +18,13 @@ return require('packer').startup(function(use)
             {'nvim-tree/nvim-web-devicons'},
         }
     })
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+        end,
+    }
     use 'folke/lsp-colors.nvim'
     use 'onsails/lspkind.nvim'
     use 'hrsh7th/cmp-buffer'
