@@ -7,7 +7,7 @@
 - [X] Add a cool LSP integration for PHP.
 - [X] Migrate everything to Lua.
 - [X] Add an ASCII art to `init.lua`
-- [ ] Change from `telescope-filebrowser` to another less bloat, something that uses `fzf` may be good.
+- [ ] Change from `telescope-filebrowser` to a file manager bloatless, something that uses `fzf` may be good.
 - [ ] Move all keymaps to a separate `.lua` file.
 - [ ] Move all appearance settings to a separate `.lua` file.
 - [ ] Specify all the _requirements_ needed to use that config.
