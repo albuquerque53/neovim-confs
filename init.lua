@@ -50,7 +50,7 @@ vim.opt.omnifunc = 'syntaxcomplete#Complete'
 
 -- Theme
 require('config.lualine')
-vim.cmd('colorscheme melange')
+vim.cmd('colorscheme gruvbox-material')
 vim.opt.background = 'dark'
 vim.cmd('highlight Normal ctermbg=NONE guibg=NONE')
 

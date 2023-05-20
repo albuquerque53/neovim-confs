@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
 
     -- appearance 
     use 'ryanoasis/vim-devicons'
-    use 'savq/melange-nvim'
+    use 'sainnhe/gruvbox-material'
     use 'lukas-reineke/indent-blankline.nvim'
 
     -- editor
