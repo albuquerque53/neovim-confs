@@ -22,6 +22,7 @@ vim.opt.autoindent = true
 vim.opt.relativenumber = true
 vim.opt.inccommand = 'split'
 vim.opt.modifiable = true
+vim.opt.wrap = false 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 0
 vim.opt.shiftwidth = 4
