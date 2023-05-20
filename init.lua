@@ -36,6 +36,7 @@ require('config.fzf')
 require('config.indentlines')
 require('config.telescope_browser')
 require('config.gitconflict')
+require('config.windows')
 
 -- LSP
 require('config.lspconfig')

@@ -59,6 +59,13 @@ return require('packer').startup(function(use)
         "nvim-telescope/telescope-file-browser.nvim",
         requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
     }
+    use {
+       'anuvyklack/windows.nvim',
+       requires = {
+          'anuvyklack/middleclass',
+          'anuvyklack/animation.nvim'
+       }
+    }
 
     -- git
     use 'lewis6991/gitsigns.nvim'
