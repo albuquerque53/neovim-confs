@@ -50,9 +50,7 @@ vim.opt.omnifunc = 'syntaxcomplete#Complete'
 
 -- Theme
 require('config.lualine')
-vim.cmd('colorscheme gruvbox-material')
-vim.opt.background = 'dark'
-vim.cmd('highlight Normal ctermbg=NONE guibg=NONE')
+require('config.catppuccin')
 
 -- Keymaps 
 vim.g.mapleader = '\\'
@@ -65,3 +63,5 @@ vim.api.nvim_set_keymap('n', '<leader>fps', ':vsplit ~/.config/nvim/lua/plugins.
 vim.api.nvim_set_keymap('n', '<leader>fcl', ':source ~/.config/nvim/init.lua<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader><space>', ':nohlsearch<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>pi', ':PackerInstall<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>bl', ':set background=light<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>bd', ':set background=dark<cr>', { noremap = true })
