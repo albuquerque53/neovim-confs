@@ -37,6 +37,7 @@ return require('packer').startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'
 
     -- editor
+    use 'nvim-tree/nvim-tree.lua'
     use 'ggandor/lightspeed.nvim'
     use { 'junegunn/fzf', run = './install --bin', }
     use { 'ibhagwan/fzf-lua',
@@ -54,10 +55,6 @@ return require('packer').startup(function(use)
         'akinsho/bufferline.nvim',
         tag = '*',
         requires = 'nvim-tree/nvim-web-devicons'
-    }
-    use {
-        "nvim-telescope/telescope-file-browser.nvim",
-        requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
     }
     use {
        'anuvyklack/windows.nvim',

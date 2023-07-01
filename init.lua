@@ -35,7 +35,7 @@ require('config.git')
 require('config.bufferline')
 require('config.fzf')
 require('config.indentlines')
-require('config.telescope_browser')
+require('config.tree')
 require('config.gitconflict')
 require('config.windows')
 
