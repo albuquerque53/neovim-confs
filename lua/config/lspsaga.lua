@@ -1,3 +1,15 @@
+require("lspsaga").setup({
+  preview = {
+    lines_above = 0,
+    lines_below = 10,
+  },
+  scroll_preview = {
+    scroll_down = "<C-f>",
+    scroll_up = "<C-b>",
+  },
+  request_timeout = 9000,
+})
+
 local keymap = vim.keymap.set
 
 -- LSP finder - Find the symbol's definition
