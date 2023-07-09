@@ -13,8 +13,8 @@ local function on_attach(client, bufnr)
 end
 
 lspconfig.phpactor.setup {
-  on_attach = on_attach,
-  cmd = { 'phpactor' },
-  filetypes = { 'php' },
-  root_dir = lspconfig.util.root_pattern('.git', 'composer.json'),
+    on_attach = on_attach,
+    cmd = { 'phpactor' },
+    filetypes = { 'php' },
+    root_dir = lspconfig.util.root_pattern('.git', 'composer.json'),
 }
