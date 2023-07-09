@@ -46,7 +46,6 @@ require('config.lspkind')
 require('config.treesiter')
 require('config.cmp')
 require('config.autopairs')
-vim.opt.omnifunc = 'syntaxcomplete#Complete'
 
 -- Theme
 require('config.lualine')
