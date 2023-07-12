@@ -8,6 +8,13 @@ require("lspsaga").setup({
     scroll_up = "<C-b>",
   },
   request_timeout = 9000,
+  lightbulb = {
+	enable = false,
+	enable_in_insert = false,
+	sign = false,
+	sign_priority = 40,
+	virtual_text = false,
+  },
 })
 
 local keymap = vim.keymap.set

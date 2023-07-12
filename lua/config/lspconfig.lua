@@ -14,7 +14,22 @@ end
 
 lspconfig.phpactor.setup {
     on_attach = on_attach,
-    cmd = { 'phpactor' },
+    cmd = { 'phpactor', 'language-server' },
     filetypes = { 'php' },
     root_dir = lspconfig.util.root_pattern('.git', 'composer.json'),
+    settings = {
+        phpactor = {
+            enable_completion = true,  -- Enable autocompletion
+            enable_docblock = true,   -- Enable PHP Docblock support
+        }
+    }
 }
+
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+    vim.lsp.diagnostic.on_publish_diagnostics, {
+        virtual_text = true,
+        signs = true,
+        underline = true,
+        update_in_insert = true,
+    }
+)
